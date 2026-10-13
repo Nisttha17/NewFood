@@ -1,0 +1,7 @@
+New-Item .gitignore -ItemType File
+Add-Content .gitignore "config.php"
+Add-Content .gitignore ".env"
+Add-Content .gitignore "vendor/"
+Add-Content .gitignore "node_modules/"
+Add-Content .gitignore "screenshots/"
+Add-Content .gitignore "*.log"
